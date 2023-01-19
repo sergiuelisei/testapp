@@ -1,28 +1,30 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@next/font': 13.1.2
-  '@types/node': 18.11.18
-  '@types/react': 18.0.27
-  '@types/react-dom': 18.0.10
-  eslint: 8.32.0
-  eslint-config-next: 13.1.2
-  next: 13.1.2
-  react: 18.2.0
-  react-dom: 18.2.0
-  typescript: 4.9.4
+importers:
 
-dependencies:
-  '@next/font': 13.1.2
-  '@types/node': 18.11.18
-  '@types/react': 18.0.27
-  '@types/react-dom': 18.0.10
-  eslint: 8.32.0
-  eslint-config-next: 13.1.2_7uibuqfxkfaozanbtbziikiqje
-  next: 13.1.2_biqbaboplfbrettd7655fr4n2y
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  typescript: 4.9.4
+  apps/app1:
+    specifiers:
+      '@next/font': 13.1.2
+      '@types/node': 18.11.18
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      eslint: 8.32.0
+      eslint-config-next: 13.1.2
+      next: 13.1.2
+      react: 18.2.0
+      react-dom: 18.2.0
+      typescript: 4.9.4
+    dependencies:
+      '@next/font': 13.1.2
+      '@types/node': 18.11.18
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      eslint: 8.32.0
+      eslint-config-next: 13.1.2_7uibuqfxkfaozanbtbziikiqje
+      next: 13.1.2_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      typescript: 4.9.4
 
 packages:
 
